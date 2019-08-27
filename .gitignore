@@ -1,0 +1,4 @@
+*.pbxuser
+*.swp
+!default.pbxuser
+xcuserdata/

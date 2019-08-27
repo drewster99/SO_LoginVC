@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginVC.swift
 //  SO_LoginVC
 //
 //  Created by Andrew Benson on 8/27/19.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class LoginVC: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
 }
-
