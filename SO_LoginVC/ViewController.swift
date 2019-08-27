@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  ViewController.swift
 //  SO_LoginVC
 //
 //  Created by Andrew Benson on 8/27/19.
@@ -7,21 +7,25 @@
 //
 
 import UIKit
+import LoginFrameworkThing
 
-public class LoginVC: UIViewController {
+class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton! {
         didSet {
             button.addTarget(self, action: #selector(presentNext), for: .touchUpInside)
         }
     }
-    
-    public override func viewDidLoad() {
-        super.viewDidLoad()
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        presentNext()
     }
 
     @objc func presentNext() {
-        print("PRESENT TNEXT BABY!")
+        print("Presenting next...")
+        let loginVC = LoginVC()
+        present(loginVC, animated: true, completion: nil)
     }
+
 }

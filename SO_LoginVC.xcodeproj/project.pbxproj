@@ -15,6 +15,8 @@
 		49F37BA823158E730028D0E0 /* LoginFrameworkThing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F37BA123158E730028D0E0 /* LoginFrameworkThing.framework */; };
 		49F37BA923158E730028D0E0 /* LoginFrameworkThing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49F37BA123158E730028D0E0 /* LoginFrameworkThing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49F37BAE23158E890028D0E0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F37B9823158D7D0028D0E0 /* LoginVC.swift */; };
+		49F37BB1231593E10028D0E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F37BAF231593E10028D0E0 /* ViewController.swift */; };
+		49F37BB2231593E10028D0E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F37BB0231593E10028D0E0 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		49F37BA123158E730028D0E0 /* LoginFrameworkThing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginFrameworkThing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F37BA323158E730028D0E0 /* LoginFrameworkThing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginFrameworkThing.h; sourceTree = "<group>"; };
 		49F37BA423158E730028D0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F37BAF231593E10028D0E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49F37BB0231593E10028D0E0 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				49F37B8D23158CC00028D0E0 /* Assets.xcassets */,
 				49F37B8F23158CC00028D0E0 /* LaunchScreen.storyboard */,
 				49F37B9223158CC00028D0E0 /* Info.plist */,
+				49F37BAF231593E10028D0E0 /* ViewController.swift */,
+				49F37BB0231593E10028D0E0 /* ViewController.xib */,
 			);
 			path = SO_LoginVC;
 			sourceTree = "<group>";
@@ -208,6 +214,7 @@
 			files = (
 				49F37B9B23158D7D0028D0E0 /* LoginVC.xib in Resources */,
 				49F37B9123158CC00028D0E0 /* LaunchScreen.storyboard in Resources */,
+				49F37BB2231593E10028D0E0 /* ViewController.xib in Resources */,
 				49F37B8E23158CC00028D0E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F37BB1231593E10028D0E0 /* ViewController.swift in Sources */,
 				49F37B8523158CBE0028D0E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

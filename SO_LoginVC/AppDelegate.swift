@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import LoginFrameworkThing
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,16 +23,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-
-    class ViewController: UIViewController {
-
-        override func viewDidAppear(_ animated: Bool) {
-            super.viewDidAppear(animated)
-            presentNext()
-        }
-        @objc func presentNext() {
-            let loginVC = LoginVC()
-            present(loginVC, animated: true, completion: nil)
-        }
-
-    }
