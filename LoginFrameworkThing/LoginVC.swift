@@ -12,7 +12,7 @@ public class LoginVC: UIViewController {
 
     @IBOutlet weak var button: UIButton! {
         didSet {
-            button.addTarget(self, action: #selector(presentNext), for: .touchUpInside)
+            button.addTarget(self, action: #selector(handleTap), for: .touchUpInside)
         }
     }
     
@@ -21,7 +21,7 @@ public class LoginVC: UIViewController {
 
     }
 
-    @objc func presentNext() {
-        print("PRESENT TNEXT BABY!")
+    @objc func handleTap() {
+        print("THIS IS THE TAP!")
     }
 }

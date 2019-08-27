@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton! {
         didSet {
-            button.addTarget(self, action: #selector(presentNext), for: .touchUpInside)
+            button.addTarget(self, action: #selector(handleTap), for: .touchUpInside)
         }
     }
 
@@ -27,5 +27,4 @@ class ViewController: UIViewController {
         let loginVC = LoginVC()
         present(loginVC, animated: true, completion: nil)
     }
-
 }
