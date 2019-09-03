@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var button: UIButton! {
         didSet {
-            button.addTarget(self, action: #selector(handleTap), for: .touchUpInside)
+            button.addTarget(self, action: #selector(presentNext), for: .touchUpInside)
         }
     }
 
